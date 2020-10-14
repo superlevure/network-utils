@@ -18,6 +18,7 @@ RUN apk add \
 
 
 COPY ressources/.zshrc /root/.zshrc
+COPY ressources/perso.zsh-theme /root/.oh-my-zsh/themes/perso.zsh-theme
 
 ENTRYPOINT [ "/bin/zsh" ]
 
